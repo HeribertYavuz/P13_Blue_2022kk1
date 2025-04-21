@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_P13_Blue_2022kk1.mk
+    $(LOCAL_DIR)/twrp_p13blue2022kk1.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_P13_Blue_2022kk1-user \
-    twrp_P13_Blue_2022kk1-userdebug \
-    twrp_P13_Blue_2022kk1-eng
+    twrp_p13blue2022kk1-user \
+    twrp_p13blue2022kk1-userdebug \
+    twrp_p13blue2022kk1-eng
