@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=P13_Blue_2022kk1
+DEVICE=p13blue2022kk1
 VENDOR=reeder
 
 # Load extract_utils and do some sanity checks
