@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from P13_Blue_2022kk1 device
-$(call inherit-product, device/reeder/P13_Blue_2022kk1/device.mk)
+# Inherit from p13blue2022kk1 device
+$(call inherit-product, device/reeder/p13blue2022kk1/device.mk)
 
-PRODUCT_DEVICE := P13_Blue_2022kk1
-PRODUCT_NAME := twrp_P13_Blue_2022kk1
+PRODUCT_DEVICE := p13blue2022kk1
+PRODUCT_NAME := twrp_p13blue2022kk1
 PRODUCT_BRAND := reeder
 PRODUCT_MODEL := P13 Blue Max Lite 2022
 PRODUCT_MANUFACTURER := reeder
@@ -25,4 +25,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-bird
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ums312_2h10_go_32b_2g-user 11 RP1A.201005.001 1664195127 release-keys"
 
-BUILD_FINGERPRINT := reeder/P13_Blue_2022/P13_Blue_2022kk1:11/RP1A.201005.001/1664195127:user/release-keys
+BUILD_FINGERPRINT := reeder/P13_Blue_2022/p13blue2022kk1:11/RP1A.201005.001/1664195127:user/release-keys
