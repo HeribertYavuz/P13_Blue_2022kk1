@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_P13_Blue_2022kk1-user
-add_lunch_combo twrp_P13_Blue_2022kk1-userdebug
-add_lunch_combo twrp_P13_Blue_2022kk1-eng
+add_lunch_combo twrp_p13blue2022kk1-user
+add_lunch_combo twrp_p13blue2022kk1-userdebug
+add_lunch_combo twrp_p13blue2022kk1-eng
